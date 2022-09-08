@@ -18,9 +18,6 @@ body {
   grid-template-columns: 2fr 1fr;
   height: 100vh;
   max-width: 1200px;
-  
-  
-  
 }
 
 .main-container {
@@ -36,8 +33,8 @@ body {
 .image-container {
   height: 100vh;
   position: absolute;
-  top:0;
-  left:100%;
+  top: 0;
+  left: 100%;
 }
 
 .image-container img {
@@ -45,7 +42,7 @@ body {
 }
 
 .mobile-image {
-  display:none;
+  display: none;
 }
 
 .header {
@@ -129,9 +126,9 @@ body {
     justify-content: center;
     align-items: center;
   }
-  
-  .main-container{
-    display:flex;
+
+  .main-container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -139,28 +136,26 @@ body {
     margin: auto;
   }
 
-.header {
-  margin-bottom: 30px;
-  align-items: left;
-  width: 100%;
-  padding-left: 25px;
-}
+  .header {
+    margin-bottom: 30px;
+    align-items: left;
+    width: 100%;
+    padding-left: 25px;
+  }
 
-
-  .image-container img{
+  .image-container img {
     display: none;
+  }
 
-    }
+  .mobile-image {
+    display: block;
+    margin-bottom: 50px;
+    width: 100%;
+  }
 
-    .mobile-image {
-      display:block;
-      margin-bottom: 50px;
-      width: 100%;
-    }
-
-    .mobile-image img {
-      width: 100%;
-    }
+  .mobile-image img {
+    width: 100%;
+  }
 
   .content {
     text-align: center;
@@ -179,14 +174,10 @@ body {
   }
   .email {
     width: 100%;
-    
   }
-  
 
   .button {
     right: 0;
     top: 0;
-  }
- 
   }
 }
